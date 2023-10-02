@@ -1,4 +1,5 @@
 import './App.css';
+import { Routes, Route, Navigate } from "react-router-dom";
 import Dashboard from './Pages/Dashboard/Dashboard';
 import Login from './Pages/Login/Login';
 
@@ -11,8 +12,18 @@ function App() {
       <div className="square1" style={{ top: "8%", right: "-57rem" }}></div>
       <div className="square2" style={{ top: "0%", right: "-66rem" }}></div>
       <div className="square3" style={{ top: "0%", right: "-80rem" }}></div>
-      <Login/>
+      {/* <Login/> */}
       {/* <Dashboard/> */}
+      <Routes>
+        <Route
+          path="/"
+          element={<Login/>}
+        />
+        <Route
+          path="/dashboard"
+          element={<Dashboard/>}
+        />
+        </Routes>
     </div>
   );
 }

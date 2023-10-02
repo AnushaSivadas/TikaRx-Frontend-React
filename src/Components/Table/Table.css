@@ -1,0 +1,20 @@
+.table-container {
+    box-shadow: 0px 13px 20px 0px #80808029;
+    max-height: 640px;
+   
+}
+
+
+.table-body > :nth-child(odd) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.table-body > :nth-child(even) {
+    background-color: white; /* Alternate row background color */
+}
+
+/* Table.css */
+.table-row {
+    border-radius: 50px; /* Set your desired border radius */
+}
+

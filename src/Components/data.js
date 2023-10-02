@@ -1,0 +1,194 @@
+export const datas =[
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+    {
+        "faxid":100234,
+        "caseid":"100BA9",
+        "faxstatus":"New",
+        "verified":"Yes",
+        "mainfaxid":"NA",
+        "faxdate":"1/3/2023",
+        "faxtime":"8:00",
+        "senderfax":"(206)342-8631",
+        "status":"Ready"
+
+    },
+]

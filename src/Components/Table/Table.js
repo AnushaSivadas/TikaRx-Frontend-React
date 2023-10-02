@@ -34,10 +34,10 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 export default function CustomizedTables() {
   return (
     <TableContainer component={Paper} 
-    style={{ boxShadow: "0px 13px 20px 0px #80808029", maxHeight: "650px", borderRadius: 20}}>
+    style={{ boxShadow: "0px 13px 20px 0px #80808029", maxHeight: "670px", borderRadius: 20}}>
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
-          <TableRow>
+          <TableRow style={{"fontWeight":"700"}}>
             <StyledTableCell align="center">Fax ID</StyledTableCell>
             <StyledTableCell align="center">Case ID</StyledTableCell>
             <StyledTableCell align="center">Fax Status</StyledTableCell>

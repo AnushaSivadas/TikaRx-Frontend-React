@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from '../Title/Title'
+import './LoginBox.css'
 import { useNavigate } from "react-router-dom";
 
 

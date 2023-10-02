@@ -1,0 +1,26 @@
+.title{
+    margin-bottom: 20px;
+}
+
+.name{
+ font-size: 47px;
+}
+
+.name span:first-child {
+    background: linear-gradient(to top, #de4f28,#f9a225);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+
+}
+
+.name span:last-child {
+    color: rgb(18, 170, 252);
+}
+
+
+.desc{
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-weight: 600;}

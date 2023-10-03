@@ -7,7 +7,9 @@
 body{
   background: #1c4b69;
   overflow: hidden;
-  
+  max-width: 220vh;
+  height: 120vh;
+
 }
 .square1{
   position: absolute;

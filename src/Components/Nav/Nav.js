@@ -51,7 +51,7 @@ const Nav = () => {
             <a href='/dashboard'><IoDocumentAttach size={15}/> Case Details</a>
           </li>
           <li>
-            <a style={{"cursor":"pointer"}} href='/'><IoLogOut size={15}/> Logout</a>
+            <a href="/" style={{"cursor":"pointer"}} ><IoLogOut size={15}/> Logout</a>
           </li>
         </ul>
         <div id='hamburger' onClick={handleOpen}>

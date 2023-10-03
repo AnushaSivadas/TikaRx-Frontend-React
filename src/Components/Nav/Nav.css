@@ -1,0 +1,195 @@
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 13.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 2px 5px 2px;
+    transition: all .50s ease;
+    z-index: 1000;
+}
+
+#left-nav li{
+    list-style: none;
+    margin:0px 20px;
+    transition: all .50s ease;
+    align-items: center;
+}
+
+#right-nav li{
+    list-style: none;
+    position: relative;
+    margin:0px 13px;
+    transition: all .50s ease;
+    align-self: center;
+}
+
+#left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.right-nav, .left-nav{
+    display: flex;
+}
+
+.right-nav div{
+    margin:0px 13px;
+    transition: all .50s ease;
+    align-self: center;
+}
+
+#right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right-nav li a{
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+#right-nav li a:hover,
+#right-nav li a.active{
+    color: orange;
+}
+
+#right-nav li a:hover::after{
+    content:"";
+    width: 30%;
+    height: 2px;
+    background: orange;
+    position: absolute;
+    bottom: -4px;
+    left: 30px;
+}
+
+.backarrow{
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 8px;
+    padding: 3px 6px 0px 3px;
+    color: rgb(14, 162, 248);
+}
+
+.next-science{
+    margin: 0px 20px;
+}
+
+.user{
+    margin-right: 4px;
+}
+
+.username{
+    display: flex;
+}
+
+.dropbox {
+    background-color: white;
+    border-radius: 15px;
+    font-size: 8px;
+    color: gray;
+    padding: 12px 10px 11px 125px;
+    margin-left: 5px;
+}
+
+.middle-nav{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top, #de4f28,#f9a225);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 800;
+}
+
+
+.nav-title{
+    font-size: 2.6em;
+    margin-left: 3px;
+}
+
+#hamburger{
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+@media (max-width: 1090px) {
+    #right-nav{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50px;
+        right: -300px;
+        width: 270px;
+        min-height: 30vh;
+        background: #000;
+        transition: all .50s ease;
+        box-shadow: 0 40px 60px rgba(0, 0, 0 ,0.1);
+    }
+    #right-nav.active{
+        right: 0px;
+    }
+    #right-nav li a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .50s ease;
+    }
+    #hamburger{
+        display: block;
+    }
+}
+@media (max-width: 796px) {
+    #left-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        top: 312.5px;
+        right: -300px;
+        width: 270px;
+        min-height: 20vh;
+        background: #000;
+        transition: all .50s ease;
+        box-shadow: 0 40px 60px rgba(0, 0, 0 ,0.1);
+    }
+    #left-nav.active{
+        right: 0px;
+    }
+    #left-nav li span{
+        margin: 30px 0;
+        transition: all .50s ease;
+    }
+    
+}
+
+@media (max-width: 1250px) {
+    #left-nav li{
+        margin: 0px 5px;
+        transition: .2s;
+    }
+    .next-science{
+        margin: 0px 5px;
+        transition: .2s;
+    }
+    #right-nav li{
+        margin:12px 5px;
+        transition: .2s;
+
+    }
+}

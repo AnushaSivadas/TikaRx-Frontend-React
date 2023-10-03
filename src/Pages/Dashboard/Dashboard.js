@@ -1,12 +1,12 @@
 import React from 'react'
-import NavBar from '../../Components/NavBar/NavBar'
 import './Dashboard.css'
 import DataTable from '../../Components/Table/Table'
+import Nav from '../../Components/Nav/Nav'
 
 const Dashboard = () => {
   return (
     <div className='dashboard'>
-        <NavBar/>
+        <Nav/>
         <div className='datatable'><DataTable/></div>
     </div>
   )

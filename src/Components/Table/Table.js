@@ -11,11 +11,13 @@ import {datas} from "../data";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
-    backgroundColor: '#0493cba3',
-    color: theme.palette.common.black,
+    backgroundColor: '#C7DEE9',
+    color: "#23516E",
+    fontWeight: '700',
   },
   [`&.${tableCellClasses.body}`]: {
     fontSize: 14,
+    color:'#7B7B7B'
   },
 }));
 
@@ -23,7 +25,6 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   '&:nth-of-type(odd)': {
     backgroundColor: theme.palette.action.hover,
   },
-  // hide last border
   '&:last-child td, &:last-child th': {
     border: 0,
   },
@@ -34,7 +35,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 export default function CustomizedTables() {
   return (
     <TableContainer component={Paper} 
-    style={{ boxShadow: "0px 13px 20px 0px #80808029", maxHeight: "670px", borderRadius: 20}}>
+    style={{ boxShadow: "0px 13px 20px 0px #80808029", maxHeight: "690px", borderRadius: 20}}>
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
           <TableRow style={{"fontWeight":"700"}}>
@@ -49,10 +50,10 @@ export default function CustomizedTables() {
             <StyledTableCell align="center">OCR Status</StyledTableCell>
           </TableRow>
         </TableHead>
-        <TableBody>
+        <TableBody className='table-body'>
           {datas.map((data) => (
             <StyledTableRow key={data.name}>             
-              <StyledTableCell align="center">{data.faxid}</StyledTableCell>
+              <StyledTableCell align="center"><a href='#'>{data.faxid}</a></StyledTableCell>
               <StyledTableCell align="center">{data.caseid}</StyledTableCell>
               <StyledTableCell align="center">{data.faxstatus}</StyledTableCell>
               <StyledTableCell align="center">{data.verified}</StyledTableCell>

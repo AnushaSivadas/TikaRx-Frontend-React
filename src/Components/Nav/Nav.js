@@ -42,13 +42,13 @@ const Nav = () => {
       <div className='right-nav'>
         <ul id='right-nav' className={open ? "#right-nav active" : "#right-nav"}>
           <li>
-            <a href='https://tikarxmanagement.netlify.app/dashboard' className='active'><FaFax size={15}/> Fax List</a>
+            <a href='/dashboard' className='active'><FaFax size={15}/> Fax List</a>
           </li>
           <li>
-            <a href='https://tikarxmanagement.netlify.app/dashboard'><HiDocumentText size={15}/> Rx Tracker List</a>
+            <a href='/dashboard'><HiDocumentText size={15}/> Rx Tracker List</a>
           </li>
           <li>
-            <a href='https://tikarxmanagement.netlify.app/dashboard'><IoDocumentAttach size={15}/> Case Details</a>
+            <a href='/dashboard'><IoDocumentAttach size={15}/> Case Details</a>
           </li>
           <li>
             <a href="/" style={{"cursor":"pointer"}} ><IoLogOut size={15}/> Logout</a>

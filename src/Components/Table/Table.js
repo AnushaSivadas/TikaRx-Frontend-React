@@ -53,7 +53,7 @@ export default function CustomizedTables() {
         <TableBody className='table-body'>
           {datas.map((data) => (
             <StyledTableRow key={data.name}>             
-              <StyledTableCell align="center"><a href='/dashboard'>{data.faxid}</a></StyledTableCell>
+              <StyledTableCell align="center"><a href='https://tikarxmanagement.netlify.app/dashboard'>{data.faxid}</a></StyledTableCell>
               <StyledTableCell align="center">{data.caseid}</StyledTableCell>
               <StyledTableCell align="center">{data.faxstatus}</StyledTableCell>
               <StyledTableCell align="center">{data.verified}</StyledTableCell>

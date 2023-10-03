@@ -44,13 +44,13 @@ const Nav = () => {
       <div className='right-nav'>
         <ul id='right-nav' className={open ? "#right-nav active" : "#right-nav"}>
           <li>
-            <a href='#' className='active'><FaFax size={15}/> Fax List</a>
+            <a className='active'><FaFax size={15}/> Fax List</a>
           </li>
           <li>
-            <a href='#'><HiDocumentText size={15}/> Rx Tracker List</a>
+            <a><HiDocumentText size={15}/> Rx Tracker List</a>
           </li>
           <li>
-            <a href='#'><IoDocumentAttach size={15}/> Case Details</a>
+            <a><IoDocumentAttach size={15}/> Case Details</a>
           </li>
           <li>
             <a style={{"cursor":"pointer"}} onClick={ ()=>navigate('/')}><IoLogOut size={15}/> Logout</a>

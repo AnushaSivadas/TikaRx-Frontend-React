@@ -8,11 +8,9 @@ import { IoDocumentAttach } from 'react-icons/io5';
 import { IoLogOut } from 'react-icons/io5';
 import { FaFax } from 'react-icons/fa';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { useNavigate } from "react-router-dom";
 import Title from '../Title/Title';
 
 const Nav = () => {
-  const navigate = useNavigate();
   const [open,setOpen] = useState(false)
   const handleOpen = () =>{
     setOpen(prev=>!prev)
@@ -44,16 +42,16 @@ const Nav = () => {
       <div className='right-nav'>
         <ul id='right-nav' className={open ? "#right-nav active" : "#right-nav"}>
           <li>
-            <a className='active'><FaFax size={15}/> Fax List</a>
+            <a href='/dashboard' className='active'><FaFax size={15}/> Fax List</a>
           </li>
           <li>
-            <a><HiDocumentText size={15}/> Rx Tracker List</a>
+            <a href='/dashboard'><HiDocumentText size={15}/> Rx Tracker List</a>
           </li>
           <li>
-            <a><IoDocumentAttach size={15}/> Case Details</a>
+            <a href='/dashboard'><IoDocumentAttach size={15}/> Case Details</a>
           </li>
           <li>
-            <a style={{"cursor":"pointer"}} onClick={ ()=>navigate('/')}><IoLogOut size={15}/> Logout</a>
+            <a style={{"cursor":"pointer"}} href='/'><IoLogOut size={15}/> Logout</a>
           </li>
         </ul>
         <div id='hamburger' onClick={handleOpen}>

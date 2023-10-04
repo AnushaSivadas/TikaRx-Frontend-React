@@ -3,7 +3,6 @@ import Title from '../Title/Title'
 import './LoginBox.css'
 import { useNavigate } from "react-router-dom";
 
-
 const LoginBox = () => {
   const navigate = useNavigate();
 

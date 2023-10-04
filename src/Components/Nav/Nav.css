@@ -130,7 +130,7 @@ nav{
 
 @media (max-width: 1090px) {
     #right-nav{
-        display: flex;
+        display: flex; 
         flex-direction: column;
         position: fixed;
         top: 50px;

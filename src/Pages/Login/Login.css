@@ -22,6 +22,14 @@
     padding: 10px;
 }
 
+.logo  {
+    width: 100px; 
+  }
+
+.next{
+    width: 6em;
+}
+
 .top-right {
     position: absolute;
     top: 10px;

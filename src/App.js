@@ -9,7 +9,7 @@ function App() {
       <div className="square1" style={{ top: "10%", left: "-8rem" }}></div>
       <div className="square2" style={{ top: "10%", left: "-25rem" }}></div>
       <div className="square3" style={{ top: "10%", left: "-35rem" }}></div>
-      <div className="square1" style={{ top: "8%", right: "-57rem" }}></div>
+      <div className="square1" style={{ top: "0%", right: "-57rem" }}></div>
       <div className="square2" style={{ top: "0%", right: "-66rem" }}></div>
       <div className="square3" style={{ top: "0%", right: "-80rem" }}></div>
       <Routes>

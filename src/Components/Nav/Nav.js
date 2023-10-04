@@ -9,6 +9,7 @@ import { IoLogOut } from 'react-icons/io5';
 import { FaFax } from 'react-icons/fa';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import Title from '../Title/Title';
+import NextScience from '../../Images/NextScience.png'
 
 const Nav = () => {
   const [open,setOpen] = useState(false)
@@ -21,7 +22,8 @@ const Nav = () => {
       <div className='left-nav'>
         <div className='next-science'>
           <span className='backarrow'><TbArrowBackUp size={15} /></span>
-            <span style={{ "font-weight": "600" }}>NEXT SCIENCE</span>
+            {/* <span style={{ "font-weight": "600" }}>NEXT SCIENCE</span> */}
+            <img src={NextScience} className='next' style={{width:'7.5em'}}/>
         </div>
         <ul id='left-nav' className={open ? "#left-nav active" : "#left-nav"}>
           <li className='username'>

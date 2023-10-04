@@ -21,7 +21,7 @@ nav{
 
 #left-nav li{
     list-style: none;
-    margin:0px 20px;
+    margin:0px 17px;
     transition: all .50s ease;
     align-items: center;
 }
@@ -86,7 +86,7 @@ nav{
 }
 
 .next-science{
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 .user{

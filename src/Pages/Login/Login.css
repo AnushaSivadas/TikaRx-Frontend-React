@@ -1,11 +1,12 @@
 
 .login-part {
-    position: fixed;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
+    position: fixed;
+    top: 150px;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .login {
@@ -32,3 +33,9 @@
 
 }
 
+@media (max-width: 768px) {
+    .login-part {
+        top: 0px;
+    }
+}
+ 

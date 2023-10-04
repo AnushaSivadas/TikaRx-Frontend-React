@@ -19,24 +19,24 @@ body{
 }
 .square1{
   position: absolute;
-  width: 55rem;
-  height: 55rem;
-  border-radius: 150px;
+  width: 700px;
+  height: 700px;
+  top:30px;
+  border-radius: 22%;
   background: #226689;
-  transform: rotate(-50deg);
-  transform-origin: 10% 90%;
+  transform: rotate(45deg);
   z-index: -1;
   overflow: hidden;
 }
 
 .square2{
   position: absolute;
-  width: 55rem;
-  height: 55rem;
-  border-radius: 150px;
+  width: 700px;
+  height: 700px;
+  top: 170px;
+  border-radius: 22%;
   background: #2a6a8d;
-  transform: rotate(-50deg); 
-  transform-origin: 30% 90%;
+  transform: rotate(45deg); 
   z-index: -1;
   overflow: hidden;
 
@@ -44,12 +44,12 @@ body{
 
 .square3{
   position: absolute;
-  width: 55rem;
-  height: 55rem;
-  border-radius: 150px;
+  width: 700px;
+  height: 700px;
+  border-radius: 22%;
+  top: 290px;
   background: #356d8b;
-  transform: rotate(-50deg); 
-  transform-origin: 45% 100%;
+  transform: rotate(-45deg); 
   z-index: -1;
   overflow: hidden;
 

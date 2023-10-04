@@ -6,12 +6,12 @@ import Login from './Pages/Login/Login';
 function App() {
   return (
     <div className="App">
-      <div className="square1" style={{ top: "10%", left: "-8rem" }}></div>
-      <div className="square2" style={{ top: "10%", left: "-25rem" }}></div>
-      <div className="square3" style={{ top: "10%", left: "-35rem" }}></div>
-      <div className="square1" style={{ top: "0%", right: "-57rem" }}></div>
-      <div className="square2" style={{ top: "0%", right: "-66rem" }}></div>
-      <div className="square3" style={{ top: "0%", right: "-80rem" }}></div>
+      <div className="square1" style={{left:"-280px"}} ></div>
+      <div className="square1" style={{right:"-280px"}} ></div>
+      <div className="square2" style={{left:"-500px"}} ></div>
+      <div className="square2" style={{right:"-500px"}} ></div>
+      <div className="square3" style={{left:"-690px"}} ></div>
+      <div className="square3" style={{right:"-690px"}} ></div>
       <Routes>
         <Route
           path="/"

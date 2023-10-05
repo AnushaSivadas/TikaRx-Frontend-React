@@ -7,14 +7,14 @@
 body{
   background: #1c4b69;
   overflow: hidden;
-  max-width: 100%;
-  height: 120vh;
+  /* max-width: 100%;
+  height: 120vh; */
 
 }
 .App {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 800px;
   overflow: hidden;
 }
 .square1{

@@ -46,11 +46,10 @@ input:focus {
     padding-left: 50px;
 }
 
-button {
+/* button {
     margin: 40px 0px 10px 150px;
     display: flex;
     padding: 8px 65px;
-    background-color: white;
     border-radius: 50px;
     font-weight: 600;
     border: 3px solid;
@@ -59,7 +58,34 @@ button {
     color: black;
     background: white;
     transition: background-color 0.3s ease;
-}
+} */
+
+  button {
+    position: relative;
+    display: flex;
+    padding: 10px 60px;
+    margin: 40px 0px 10px 170px;
+    background: white;
+    border-radius: 20px; 
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    border: none;
+  }
+  button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 15px; 
+    padding: 3px; 
+    background:linear-gradient(45deg,orangered,rgba(5, 141, 156, 0.782)); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude; 
+  }
 
 .login-title{
     margin-bottom: 20px;

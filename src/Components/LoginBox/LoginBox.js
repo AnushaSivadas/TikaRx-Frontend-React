@@ -23,7 +23,8 @@ const LoginBox = () => {
                 <div>Remember me</div>
                 <div className='forgot'>Forgot User ID/PassCode</div>
             </div>
-            <button type='submit'  onClick={ ()=>navigate('/dashboard')}>Login</button>
+            <button type='submit' onClick={ ()=>navigate('/dashboard')}>Login</button>
+          
         </div>
     )
 }

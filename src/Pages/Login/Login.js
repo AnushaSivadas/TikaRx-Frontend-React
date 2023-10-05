@@ -12,7 +12,7 @@ const Login = () => {
       </div>
       <div className='top-right'>
         {/* NEXT SCIENCE */}
-        <img className='next' src={NextScience}  alt='LOGO' />
+        <img className='next' src={NextScience}  alt='Next Science' />
       </div>
       <div className='login-part'>
         <LoginBox />

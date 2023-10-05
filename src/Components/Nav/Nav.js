@@ -23,7 +23,7 @@ const Nav = () => {
         <div className='next-science'>
           <span className='backarrow'><TbArrowBackUp size={15} /></span>
             {/* <span style={{ "font-weight": "600" }}>NEXT SCIENCE</span> */}
-            <img src={NextScience} className='next' style={{width:'7.5em'}}/>
+            <img src={NextScience} className='next' style={{width:'7.5em'}} alt='Next Science'/>
         </div>
         <ul id='left-nav' className={open ? "#left-nav active" : "#left-nav"}>
           <li className='username'>
